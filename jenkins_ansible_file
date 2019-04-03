@@ -1,4 +1,4 @@
-node(ansible_node){
+node('ansible_node'){
 
 stage(git_checkout){
 
