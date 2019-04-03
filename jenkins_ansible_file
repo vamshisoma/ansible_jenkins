@@ -2,9 +2,17 @@ node(ansible_node){
 
 stage(git_checkout){
 
-git clone ''
+git 'https://github.com/vamshisoma/ansible_jenkins.git'
 
 }
+stage(run_file){
 
+sh ***
+
+ansible --version
+
+***
+
+}
 
 }
