@@ -7,11 +7,11 @@ git 'https://github.com/vamshisoma/ansible_jenkins.git'
 }
 stage(run_file){
 
-sh ***
+sh '''
 
 ansible --version
 
-***
+'''
 
 }
 
