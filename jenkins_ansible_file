@@ -1,6 +1,6 @@
 node('ansible_node'){
 
-stage(git_checkout){
+stage(SCM checkout){
 
 git 'https://github.com/vamshisoma/ansible_jenkins.git'
 
