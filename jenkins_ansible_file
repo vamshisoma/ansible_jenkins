@@ -1,0 +1,10 @@
+node(ansible_node){
+
+stage(git_checkout){
+
+git clone ''
+
+}
+
+
+}
