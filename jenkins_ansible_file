@@ -1,11 +1,11 @@
 node('ansible_node'){
 
-stage(SCM checkout){
+stage('SCM checkout'){
 
 git 'https://github.com/vamshisoma/ansible_jenkins.git'
 
 }
-stage(run_file){
+stage('run_file'){
 
 sh '''
 
