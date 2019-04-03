@@ -9,7 +9,7 @@ stage('run_file'){
 
 sh '''
 
-ansible-playbook /home/ansadmin/playbooks/ansibleplaybooks/myfirstplaybOok.yml
+ansible-playbook /home/ansadmin/playbooks/ansibleplaybooks/myfirstplaybook.yml
 
 '''
 
